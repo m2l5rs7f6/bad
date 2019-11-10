@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.top1{
+    width: 100%;
+    height: 36px;
+    margin: auto;
+    background: #333333;
+    position: relative;
+}
+.top1-danner{
+    width: 1090px;
+    height: 36px;
+    margin: auto;
+    position: relative;
+}
+.lpt1{
+    width: 246px;
+    height: 36px;
+    font-size: 12px;
+    color: goldenrod;
+    background: sandybrown;
+    float: left;
+    background: url(/img/喇叭.gif) center left no-repeat;
+}
+.lpt1 li{
+    margin-left: 22px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.wz1{
+    width: 471px;
+    height: 36px;
+    float: right;
+}
+.wz1-1{
+    float: left;
+}
+.wz1-2{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    color:#ccc;
+}
+.wz1-3{
+    font-size: 12px;
+    line-height: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.wz1-5::before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    border-left: 1px solid 
+    #5c5c5c;
+    vertical-align: middle;
+}
+.wz1-3 a span{
+    float: left;
+}
+.wz1-3 a i{
+    background-image: url(/img/精灵图.png);
+    background-position: 0 -690px;
+    height: 5px;
+    width: 11px;
+    float: left;
+    margin-top: 15px;
+}
+.wz1-3 i{
+    background-image: url(/img/精灵图.png);
+    background-position: 0 0;
+    height: 11px;
+    width: 7px;
+    display: inline-block;
+}
+.wz1-6{
+    width: 83px; 
+    /* height: 123px;  */
+    background:white;
+    position: absolute;
+    left: -10px;
+    display: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.wz1-3:hover .wz1-6{
+    display: block;
+}
+.a1{
+    width: 55px;
+    height: 38px;
+    color: #b4a078;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #b4a078;
+    position: relative;
+    margin: auto;
+}
+.wz1-7{
+    width: 139px;
+    height: 156.6px;
+    position: absolute;
+    left: -45px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: none;
+}
+.rwm{
+    width: 117px;
+    height: 117px;
+    background: url(/img/二维码.png);
+    background-size: 117px 117px;
+    margin: auto;
+    margin-top: 10px;
+}
+.rwm li{
+    margin-top: 115px;
+    position: absolute;
+    left: 7px;
+    color: #b4a078;
+}
+.wz1-3:hover .wz1-7{
+    display: block;
+}
+.top2{
+    width: 100%;
+    height: 140px;
+    position: relative;
+    background: white;
+}
+.top2-danner{
+    width: 1090px;
+    height: 140px;
+    position: relative;
+    background: #ccc;
+    margin: auto;
+}
+.logn{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 212px;
+    height: 60px;
+    background: url(/img/精灵图.png);
+    background-position: 0 -298px;
+    float: left;
+}
+.gouwuche{
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 49px;
+    float: right;
+    margin-left: 954px;
+}
+.gouwuche1{
+    position: relative;
+    cursor: pointer;
+    width: 134px;
+    height: 20px;
+    border: 1px solid #CC9756;
+    border-radius: 19px;
+    padding: 8px 0;
+}
+.a2{
+    background: url(/img/精灵图.png);
+    background-position: 0 -148px;
+    height: 18px;
+    width: 18px;
+    margin-left: 22px;
+    display: block;
+}
+.gouwuche1 span{
+    color:#CC9756;
+    margin-left: 5px;
+    margin-top: -1px;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 44px;
+}
+.a3{
+    background: url(/img/精灵图.png);
+    background-position: 0 -51px;
+    height: 19px;
+    width: 19px;
+    display: block;
+    float: right;
+    margin-top: -17px;
+    margin-right: 15px;
+    color:#fff;
+    text-align: center;
+    line-height: 20px;
+    z-index: 1;
+}
+.ssk{
+    position: relative;
+    margin-top: 26px;
+    float: right;
+    width: 532px;
+    height: 36px;
+    border-radius: 2rem;
+    right: 200px;
+    border: 1px solid #CC9756;
+}
+.ann1{
+    width: 90px;
+    height: 38px;
+    background-color:#CC9756;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    cursor: pointer;
+    float: right;
+    color:#fff;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    top: -65px;
+}
+.ssk-div{
+    box-sizing: border-box;
+}
+.ssk-div i{
+    position: absolute;
+    left: 18px;
+    top: 12px;
+    background-position: 0 -518px;
+    height: 14px;
+    background: url(/img/精灵图.png);
+    width: 14px;
+}
+.ann1 span{
+    cursor: pointer;
+    color:#fff;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;    
+    letter-spacing: 1px;
+}
+.in1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* border: 1px solid#CC9756; */
+    border-bottom-left-radius: 19px;
+    border-top-left-radius: 19px;
+    font-size: 14px;
+    width: 442px;
+    padding-left: 38px;
+    outline: 0;
+    overflow: hidden;
+    background: 0 0;
+}
+.nr1{
+    position: absolute;
+    top: 12px;
+    left: 38px;
+    color:#999;
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    cursor: text;
+    touch-action: none;
+    -ms-touch-action: none;
+    pointer-events: none;
+    -ms-pointer-events: none;
+    -webkit-user-select: none;
+    width: 390px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wz2{
+    margin-top: 46px;
+    margin-left: 8px;
+    width: 454px;
+    height: 18px;
+    overflow: hidden;
+}
+.wz2-1{
+    top: 0;
+    position: relative;
+    overflow: hidden;
+}
+.wz2-2{
+    box-sizing: border-box;
+}
+.wz2-3{
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 18px;
+    font-size: 0;
+}
+.wz2-3 a{
+    display: inline-block;
+    color:#999;
+    padding: 0 10px;
+    border-right: 1px solid#ccc;
+    line-height: 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 444px;
+    cursor: pointer;
+}
+.head1-ul1{
+    line-height: 1;
+    font-weight: 700;
+    position: absolute;
+    height: 30px;
+    bottom: 21px;
+    width: 100%;
+    background: sienna;
+}
+.head1-ul1 .h-u-li1{
+    margin-left: 0;
+    padding-left: 0;
+}
+.h-u-li2{
+    float: left;
+    margin-top: 27px;
+    padding: 0 24px;
+    font-size: 14px;
+}
+.h-u-a1{
+    color:#CC9756;
+    border-bottom: 3px solid#CC9756;
+    display: block;
+    padding-bottom: 7px;
+}
+.h-u-a2{
+    display: block;
+    padding-bottom: 7px;
+    color:#000;
+    font-size: 14px;
+}
+.content1{
+    width: 1202px;
+    left: -56px;
+    right: auto;
+    background: white;
+    display: block;
+    top: 140px;
+    position: absolute;
+    border: 1px solid rgba(0,0,0,.1);
+    display: none;
+}
+/* .h-u-li1:hover .c-div1{
+    display: block;
+} */
+.c-ul1{
+    position: absolute;
+    top: 0px;
+}
+.c-div1{
+    width: 124px;
+    float: left;
+    margin-right: 24px;
+    float: left;
+}
+.c-div2{
+    display:block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    border-bottom: 1px solid#ddd;
+
+}
+.c-div3::before{
+    content: " ";
+    display: table;
+}
+.c-div5{
+    margin-bottom: 4px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 124px;
+    height: 50px;
+}
+.c-div5 a{
+    width: 124px;
+}
+.c-div5 a img{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    vertical-align: top;
+    float: left;
+}
+.c-sp1{
+    display:block;
+    width: 70px;
+    max-width: 70px;
+    max-height: 48px;
+    margin-left: 4px;
+    font-size: 14px;
+    /* vertical-align: middle; */
+    line-height: 3.2;
+    overflow: hidden;
+    word-wrap: break-word;
+    float: left;
+}
+.head1-ul1 li:nth-child(9){
+    padding: 0px;
+}
